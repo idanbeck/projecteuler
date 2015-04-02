@@ -1,0 +1,11 @@
+I didn't actually write any code, but instead opted for a mathmatical
+solution. 
+
+The key is determining that these values must be divisible by the
+product of all the primes in the given range.  For example, the 1..10
+example is divisible 12 times by 210.
+
+Finding the 1..20 prime product, I multiplied that by 12 - found that
+all the numbers 1..20 are divisible except for 16, which yields a .5
+remainder.  Multiplying this number further by two, resulted in the
+minimum number divisible by all of the numbers 1..20
